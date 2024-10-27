@@ -11,7 +11,7 @@ LDFLAGS =
 APPNAME = myapp 
 EXT = .cpp
 SRCDIR = ./
-OBJDIR = ./
+OBJDIR = ./obj
 
 ############## Do not change anything from here downwards! #############
 SRC = $(wildcard $(SRCDIR)/*$(EXT))
@@ -29,8 +29,7 @@ WDELOBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)\\%.o)
 ####################### Targets beginning here #########################
 ########################################################################
 
-all: $(APPNAME)
-
+all: $(APPNAME)  cleandep
 # Builds the app
 $(APPNAME): $(OBJ)
 	$(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
