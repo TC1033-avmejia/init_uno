@@ -6,11 +6,12 @@
     "configurations": [
         {
             "name": "Debug",
-            "type": "gdb",
+            "type": "lldb",
             "request": "launch",
-            "target": "${workspaceRoot}/myapp",
-            "cwd": "${workspaceRoot}",
-            "valuesFormatting": "parseText"
+            "program": "${workspaceRoot}/myapp",
+            "args": [],
+            "cwd": "${workspaceRoot}"
         }
     ]
 }
+
