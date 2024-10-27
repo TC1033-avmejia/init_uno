@@ -33,4 +33,5 @@ Donde los coeficientes A, B, y C son números reales proporcionados por el usuar
 ![solucion](img/solucion.png)
 
 Para este ejercicio, puedes asumir que A ≠ 0 y que la relación B al cuadrado es mayor o igual a 4AC por lo que habrá soluciones con números reales para x.
+Usa los valores a = 3 , b = -5 c = 2 para provbar tu solución
 
