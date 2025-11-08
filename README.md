@@ -18,7 +18,7 @@ El IMC se calcula con la fórmula siguiente:
 
 Donde w es el peso en kilogramos y h es la altura en metros. 
 
-Escribe una aplicación que acepte el peso y la altura (ambos enteros) y calcule y muestre el IMC. 
+Escribe una aplicación que acepte el peso y la altura (ambos flotantes) y calcule y muestre el IMC. 
 
 ------
 
